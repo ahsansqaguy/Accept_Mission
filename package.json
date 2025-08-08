@@ -1,0 +1,31 @@
+{
+  "name": "AcceptMissionScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "show-report": "playwright show-report",
+    "postinstall": "npx playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.54.1",
+    "@types/node": "22.9.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@faker-js/faker": "9.2.0",
+    "dotenv": "16.4.5"
+  },
+  "description": "",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

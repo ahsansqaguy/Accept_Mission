@@ -1,0 +1,30 @@
+{
+  "signup": {
+    "url": "https://app.acceptmission.com/signup_company"
+  },
+  "login": {
+    "url": "https://automationqa-7082.acceptmission.com/login",
+    "email": "acceptqatest+automationtest80@mailinator.com",
+    "password": "Testing123!"
+  },
+  "resetPassword": {
+    "url": "https://automationqa-7082.acceptmission.com/login",
+        "email": "acceptqatest+automationtest80@mailinator.com"
+  },
+  "outlook": {
+    "url": "https://outlook.live.com/owa/",
+    "email": "secretmissionautomation@hotmail.com",
+    "password": "Helloworld@8695"
+  },
+  "Idea": {
+    "IdeaUrl": "https://automationqa-7082.acceptmission.com/ideas/8"
+  },
+  "PagesUrl":{
+    "InnovationPortal": "https://automationqa-7082.acceptmission.com/home",
+    "AdminStudio": "https://automationqa-7082.acceptmission.com/admin-studio",
+    "MissionCampaign": "https://automationqa-7082.acceptmission.com/ideabox/active",
+    "CampaignDetail":"https://automationqa-7082.acceptmission.com/ideabox/campaign-9889/settings"
+  }
+
+}
+
