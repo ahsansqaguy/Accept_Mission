@@ -32,7 +32,7 @@ export class LoginPage {
     await this.page.click(this.forgotPassword);
     await this.page.fill(this.emailInput, email);
     await this.page.click(this.resetPasswordButton);
-    expect(await this.page.locator(this.confirmationMessageResetPassword)).toBeVisible
+    await expect(this.page.locator(this.confirmationMessageResetPassword)).toBeVisible();
   }
 
   async createNewPassword(newPassword) {

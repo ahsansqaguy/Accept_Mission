@@ -1,10 +1,6 @@
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
-export default defineConfig({
-  use: {
-    headless: false, // 👈 this opens browser in headed mode always
-  },
-});
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
